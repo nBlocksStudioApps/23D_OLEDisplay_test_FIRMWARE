@@ -19869,6 +19869,7 @@ Discarded input sections
                 0x00000000       0x32 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
  .text._ZN12Adafruit_GFX5_putcEi
                 0x00000000        0xa BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
+ .debug_macro   0x00000000      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
  .debug_macro   0x00000000       0xfa BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
  .debug_macro   0x00000000       0x2e BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
  .debug_macro   0x00000000       0x3a BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
@@ -27174,8 +27175,7 @@ LOAD c:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gc
  *(.dtors)
  *(.rodata*)
  .rodata._Z41__static_initialization_and_destruction_0ii.str1.4
-                0x0000ef98       0x13 BUILD/LPC1768/GCC_ARM/main.o
- *fill*         0x0000efab        0x1 
+                0x0000ef98       0x14 BUILD/LPC1768/GCC_ARM/main.o
  .rodata._ZTV13nBlock_Ticker
                 0x0000efac       0x20 BUILD/LPC1768/GCC_ARM/main.o
                 0x0000efac                vtable for nBlock_Ticker
@@ -28614,7 +28614,7 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/23D_OLEDisplay_test.elf elf32-littlearm)
  .debug_ranges  0x00002468       0xa8 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
  .debug_ranges  0x00002510      0x150 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
-.debug_macro    0x00000000    0x17f45
+.debug_macro    0x00000000    0x17281
  .debug_macro   0x00000000      0xd6a BUILD/LPC1768/GCC_ARM/main.o
  .debug_macro   0x00000d6a      0xcc4 BUILD/LPC1768/GCC_ARM/main.o
  .debug_macro   0x00001a2e       0xfa BUILD/LPC1768/GCC_ARM/main.o
@@ -28810,10 +28810,9 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/23D_OLEDisplay_test.elf elf32-littlearm)
  .debug_macro   0x0001248d      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
  .debug_macro   0x0001315d      0xd8b BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
  .debug_macro   0x00013ee8      0xd36 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
- .debug_macro   0x00014c1e      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
- .debug_macro   0x000158e2      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
- .debug_macro   0x000165b1      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
- .debug_macro   0x00017281      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
+ .debug_macro   0x00014c1e      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_macro   0x000158ed      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_macro   0x000165bd      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
 .debug_line     0x00000000    0x271fe
  .debug_line    0x00000000     0x1851 BUILD/LPC1768/GCC_ARM/main.o
@@ -28863,7 +28862,7 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/23D_OLEDisplay_test.elf elf32-littlearm)
  .debug_line    0x00023ffa     0x17a1 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
  .debug_line    0x0002579b     0x1a63 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
-.debug_str      0x00000000    0x31e13
+.debug_str      0x00000000    0x31deb
  .debug_str     0x00000000    0x207eb BUILD/LPC1768/GCC_ARM/main.o
                               0x216fb (size before relaxing)
  .debug_str     0x000207eb      0x2fc BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
@@ -28948,13 +28947,13 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/23D_OLEDisplay_test.elf elf32-littlearm)
                               0x206fc (size before relaxing)
  .debug_str     0x0002da75     0x2cad BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
                               0x23f1d (size before relaxing)
- .debug_str     0x00030722      0xbfc BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
+ .debug_str     0x00030722      0xbd4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
                               0x24535 (size before relaxing)
- .debug_str     0x0003131e      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_str     0x000312f6      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
                               0x20abc (size before relaxing)
- .debug_str     0x0003144d      0x697 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_str     0x00031425      0x697 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
                               0x2128c (size before relaxing)
- .debug_str     0x00031ae4      0x32f BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
+ .debug_str     0x00031abc      0x32f BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
                               0x2106b (size before relaxing)
 
 .debug_frame    0x00000000     0x7e48

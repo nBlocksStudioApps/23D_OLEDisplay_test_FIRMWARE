@@ -15,7 +15,7 @@
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (100);
 nBlock_Counter           nb_nBlockNode1_Counter      (30000);
-nBlock_StringFormat      nb_nBlockNode2_StringFormat ("Counter value=%d \r");
+nBlock_StringFormat      nb_nBlockNode2_StringFormat ("Counter value=%d \r ");
 nBlock_OLEDisplay        nb_nBlockNode3_OLEDisplay   (p9, p10, p27);
 
 // -*-*- List of connection objects -*-*-
